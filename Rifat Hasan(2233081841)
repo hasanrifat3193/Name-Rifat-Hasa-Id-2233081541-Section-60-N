@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{ int i,s=0;
+float avg,a[10];
+printf("Enter 10 Subject Values");
+for (i=0;i<10;i++)
+{
+    scanf("%f",&a[i]);
+}for (i=0;i<10;i++)
+{
+    s=s+a[i];
+}
+printf("Sum is %d",s);
+avg=s/10;
+printf("\nGPA is %f",avg);
+
+
+}
